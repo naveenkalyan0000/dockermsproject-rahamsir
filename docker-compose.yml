@@ -2,25 +2,25 @@
 version: "3.8"
 services:
   postpaid:
-    image: naveenkalyan0000/postpaidd:latest
+    image: naveenkalyan0000/postpaid:latest
     ports:
       - 81:80
     deploy:
       replicas: 3
   paytmwallet:
-    image: naveenkalyan0000/paytmwallett:latest
+    image: naveenkalyan0000/paytmwallet:latest
     ports:
       - 82:80
     deploy:
       replicas: 3
   hydmetro:
-    image: naveenkalyan0000/hydmetroo:latest
+    image: naveenkalyan0000/hydmetro:latest
     ports:
       - 83:80
     deploy:
       replicas: 3
   insurance:
-    image: naveenkalyan0000/insurancee:latest
+    image: naveenkalyan0000/insurance:latest
     ports:
       - 84:80
     deploy:
